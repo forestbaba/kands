@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/honme"
+        android:checkable="false"
+        android:title="Go Home" />
+    <item
+        android:id="@+id/background"
+        android:icon="@drawable/ic_email"
+        android:title="Change Theme">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/default_theme"
+                    android:checkable="true"
+                    android:orderInCategory="1"
+                    android:title="Default"
+                    />
+                <item
+                    android:id="@+id/day"
+                    android:orderInCategory="2"
+                    android:title="Day" />
+                <item
+                    android:id="@+id/night"
+                    android:orderInCategory="3"
+                    android:title="Night" />
+
+            </group>
+
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/share_now"
+        android:title="Share" />
+    <item
+        android:id="@+id/favourite"
+        android:checkable="false"
+        android:title="Add to Favourite" />
+    <item
+        android:id="@+id/on_screen"
+        android:checkable="true"
+        android:title="On Screen" />
+
+</menu>

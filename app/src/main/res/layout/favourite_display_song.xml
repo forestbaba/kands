@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/some_stuff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colour_grey">
+
+
+
+
+    <!--</LinearLayout>-->
+    <!--<include layout="@layout/toolbar" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="@dimen/dimen_30dp"
+        android:paddingBottom="@dimen/dimen_10dp">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/some_stuf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colour_grey"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen_10dp"
+                android:layout_marginLeft="@dimen/dimen_15dp"
+                android:layout_marginRight="@dimen/dimen_15dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:background="@color/GrayGood"
+                android:gravity="center"
+                android:padding="@dimen/dimen_15dp"
+                android:paddingLeft="@dimen/dimen_15dp"
+                android:paddingTop="@dimen/dimen_15dp"
+                android:text="TextView"
+                android:textColor="@color/White"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_song"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen_10dp"
+                android:layout_marginLeft="@dimen/dimen_15dp"
+                android:layout_marginRight="@dimen/dimen_15dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:background="@color/GrayGood"
+                android:gravity="center"
+                android:padding="@dimen/dimen_15dp"
+                android:paddingLeft="@dimen/dimen_15dp"
+                android:paddingTop="@dimen/dimen_15dp"
+                android:text="TextView"
+                android:textColor="@color/White"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/zoom_out"
+            android:layout_width="@dimen/dimen_30dp"
+            android:layout_height="@dimen/dimen_30dp"
+            android:layout_margin="@dimen/dimen_5dp"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:padding="@dimen/dimen_5dp"
+            app:srcCompat="@drawable/zoom_out"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <ImageButton
+            android:id="@+id/zoom_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_5dp"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:padding="@dimen/dimen_5dp"
+            app:srcCompat="@drawable/zoom_in"
+            tools:ignore="VectorDrawableCompat" />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/pop_menu"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="right"-->
+            <!--android:layout_margin="@dimen/dimen_5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/White"-->
+            <!--android:padding="@dimen/dimen_5dp"-->
+            <!--app:srcCompat="@drawable/icon"-->
+            <!--tools:ignore="VectorDrawableCompat" />-->
+    </LinearLayout>
+</RelativeLayout>

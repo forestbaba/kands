@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">K &amp; S</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="text1">Showing Text one</string>
+    <string name="text2">Showing Text Two</string>
+    <string name="text3">Showing Text Three</string>
+    <string name="text4">Showing Text 4</string>
+    <string name="text5">Showing Text 5</string>
+    <string name="sample_text">I/art: Background partial concurrent mark sweep GC freed 1450(157KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 1957KB/3MB, paused 39.912ms total 449.774ms
+I/Choreographer: Skipped 94 frames!  The application may be doing too much work on its main thread.
+I/Choreographer: Skipped 73 frames!  The application may be doing too much work on its main thread.
+I/Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.</string>
+
+    <string name="show_bible_verses">Show Scripture Verses</string>
+    <string name="show_bible_details">Show Scripture Verses On Home Screen</string>
+    <string name="bible_verse_duration">Bible Verse Duration</string>
+    <string name="verse_time">Seconds</string>
+    <string name="font">Hymm Font Style</string>
+    <string name="font_face">Font Face</string>
+    <string name="share_using">Share Via</string>
+
+
+    <!--<string-array name="quotes">-->
+    <string name="quote1">
+            Isaiah 25:1
+            OLUWA, ìwọ ni Ọlọrun mi.
+N óo gbé ọ ga:
+n óo yin orúkọ rẹ.
+Nítorí pé o ti ṣe àwọn nǹkan ìyanu,
+o ti ṣe àwọn ètò láti ìgbà àtijọ́,
+o mú wọn ṣẹ pẹlu òtítọ́.</string>
+    <string name="quote2">
+            EXODUS 23:25
+Èmi OLUWA Ọlọrun yín ni kí ẹ máa sìn. N óo pèsè ọpọlọpọ nǹkan jíjẹ ati nǹkan mímu fún yín,
+ n óo sì mú àìsàn kúrò láàrin yín.
+        </string>
+    <string name="quote3">
+        Psalm 156:6
+        Kí gbogbo nǹkan ẹlẹ́mìí yin OLUWA!
+    </string>
+    <string name="quote4">
+        Psalm 103:1
+        Yin OLUWA, ìwọ ọkàn mi,fi tinútinú yin orúkọ rẹ̀ mímọ́.
+    </string>
+    <string name="quote5">
+        Psalm 63:1
+        Ọlọrun, ìwọ ni Ọlọrun mi, mò ń wá ọ,
+        ọkàn rẹ ń fà mí;
+        bí ilẹ̀ tí ó ti ṣá, tí ó sì gbẹ
+        ṣe máa ń kóǹgbẹ omi.
+    </string>
+    <string name="quote6">
+        psalm 71:8
+        Ẹnu mi kún fún ìyìn rẹ,
+        ó kún fún ògo rẹ tọ̀sán-tòru.
+    </string>
+    <string name="quote7">
+        Psalm 68:4-5
+        Ẹ kọrin sí Ọlọrun, ẹ kọ orin ìyìn sí orúkọ rẹ̀,
+        ẹ pòkìkí ẹni tí ń gun ìkùukùu lẹ́ṣin.
+        OLUWA ni orúkọ rẹ̀;
+        ẹ máa yọ̀ níwájú rẹ̀.Baba àwọn aláìníbaba ati olùgbèjà àwọn opó ni Ọlọrun,
+        ní ibùgbé rẹ̀ mímọ́.
+    </string>
+    <string name="quote8">
+        Psalm 42:11
+        Ìwọ ọkàn mi, kí ló dé tí o fi ń rẹ̀wẹ̀sì?
+        Kí ló dé tí ara rẹ kò fi balẹ̀ ninu mi?
+        Gbẹ́kẹ̀ rẹ lé Ọlọrun; nítorí pé n óo tún yìn ín,
+        olùrànlọ́wọ́ mi ati Ọlọrun mi.
+    </string>
+    <string name="quote9">
+        Psalm 105:1
+        Ẹ dúpẹ́ lọ́wọ́ OLUWA, ẹ pe orúkọ rẹ̀,
+        ẹ fi iṣẹ́ rẹ̀ hàn ní gbogbo orílẹ̀-èdè.
+    </string>
+    <string name="quote10">
+        Psalm 143:6
+        Mo na ọwọ́ sí ọ fún ìrànlọ́wọ́;
+        bí òùngbẹ omi í tií gbẹ ilẹ̀ gbígbẹ,
+        bẹ́ẹ̀ ni òùngbẹ rẹ ń gbẹ ọkàn mi.
+    </string>
+    <string name="quote11">
+        Psalm 66:17
+        Mo ké pè é,
+        mo sì kọrin yìn ín.
+    </string>
+    <string name="quote12">
+        Psalm 16:2
+        Mo wí fún ọ, OLUWA, pé, “Ìwọ ni Oluwa mi;
+    </string>
+    <string name="quote13">
+        Acts 16:25
+        Nígbà tí ó di ọ̀gànjọ́, Paulu ati Sila ń gbadura, wọ́n ń kọrin sí Ọlọrun. Àwọn ẹlẹ́wọ̀n
+        yòókù ń dẹtí sí wọn.
+    </string>
+    <string name="quote14">
+        1 Chronicles 16:34
+        Ẹ fi ọpẹ́ fún OLUWA nítorí pé ó ṣeun,
+        ìfẹ́ rẹ̀ tí kìí yẹ̀ sì wà títí lae!
+    </string>
+    <string name="quote15">
+        1 Chronicles 29:11
+        OLUWA, o tóbi pupọ, tìrẹ ni agbára, ògo, ìṣẹ́gun, ati ọlá ńlá; nítorí tìrẹ ni ohun gbogbo ní
+        ọ̀run ati ní ayé. Tìrẹ ni ìjọba, a gbé ọ ga bí orí fún ohun gbogbo.
+    </string>
+    <string name="quote16">
+        Habakkuk 3:17-18
+        Bí igi ọ̀pọ̀tọ́ kò tilẹ̀ rúwé, tí àjàrà kò sì so,
+        tí kò sí èso lórí igi olifi;
+        tí àwọn irúgbìn kò sì so lóko,
+        tí àwọn agbo aguntan run,
+        tí kò sì sí mààlúù ninu agbo mọ́, sibẹsibẹ, n óo yọ̀ ninu OLUWA,
+        n óo yọ̀ ninu Ọlọrun Olùgbàlà mi.
+    </string>
+    <string name="quote17">
+        2 Corinthians 1:3-4
+        A dúpẹ́ lọ́wọ́ Ọlọrun, Baba Oluwa wa Jesu Kristi, Baba aláàánú ati Ọlọrun orísun ìtùnú, ẹni
+        tí ó ń fún wa ní ìwúrí ninu gbogbo ìpọ́njú tí à ń rí, kí àwa náà lè fi ìwúrí fún àwọn tí ó
+        wà ninu oríṣìíríṣìí ìpọ́njú nípa ìwúrí tí àwa fúnra wa ti níláti ọ̀dọ̀ Ọlọrun.
+    </string>
+    <string name="quote18">
+        2 Samuel 7:22
+        OLUWA Ọlọrun, o tóbi gan-an! Kò sí ẹni tí ó dàbí rẹ, bẹ́ẹ̀ ni kò sí Ọlọrun mìíràn lẹ́yìn rẹ,
+        nítorí gbogbo ohun tí a ti fi etí wa gbọ́.
+    </string>
+    <string name="quote19">
+        Romans 11:36
+        Nítorí lọ́dọ̀ rẹ̀ ni ohun gbogbo wà, láti ọwọ́ rẹ̀ ni ohun gbogbo ti ń wá, nítorí tirẹ̀ sì
+        ni ohun gbogbo ṣe wà. Tirẹ̀ ni ògo títí ayérayé. Amin.
+    </string>
+    <string name="quote20">
+        Jeremiah 29:12
+        Ẹ óo ké pè mí, ẹ óo gbadura sí mi, n óo sì gbọ́ adura yín.
+    </string>
+    <string name="quote21">
+        Romans 14:11
+        Ó wà ní àkọsílẹ̀ pé,
+        “Oluwa fi ara rẹ̀ búra, ó ní,
+        ‘Èmi ni gbogbo orúnkún yóo kúnlẹ̀ fún,
+        Èmi ni gbogbo ẹnu yóo pè ní Ọlọrun.’ ”
+    </string>
+    <string name="quote22">
+        1 Samuel 2:2
+        “Kò sí ẹni mímọ́ bíi OLUWA,
+        kò sí ẹlòmíràn,
+        àfi òun nìkan ṣoṣo.
+        Kò sí aláàbò kan tí ó dàbí Ọlọrun wa.
+    </string>
+    <string name="quote23">
+        Daniel 4:37
+        “Ẹ gbọ́, èmi Nebukadinesari, fi ìyìn, ògo, ati ọlá fún ọba ọ̀run. Nítorí pé gbogbo iṣẹ́ rẹ̀
+        pé, ọ̀nà rẹ̀ tọ́, ó sì lè rẹ àwọn agbéraga sílẹ̀.”
+    </string>
+    <string name="quote24">
+        JAKỌBU 3:10
+        Láti inú ẹnu kan náà ni ìyìn ati èpè ti ń jáde. Ẹ̀yin ará mi, kò yẹ kí èyí rí bẹ́ẹ̀.
+    </string>
+
+
+</resources>

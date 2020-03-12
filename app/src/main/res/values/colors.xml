@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="White">#f9f7f7</color>
+    <color name="skye_blue">#6186f5</color>
+    <color name="black">#020000</color>
+    <color name="Black">#000000</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="GrayGood">#8f8a8a</color>
+
+
+    <color name="color_white">#fcfcfc</color>
+    <color name="color_black">#131313</color>
+    <color name="colour_grey">#c4c1c2</color>
+    <color name="colour_brown">#da9838</color>
+
+    <color name="colorOrin">#ba0120</color>
+    <color name="colorOrinDark">#bc5a5a</color>
+    <color name="colorOrinAccent">#fc0c5d</color>
+    <color name="transparent_grey">#64ec2c2c</color>
+
+
+
+</resources>
